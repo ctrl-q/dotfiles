@@ -1,0 +1,18 @@
+[alias]
+	update = !git pull && git submodule update --init --recursive
+[protocol "file"]
+	allow = always
+[diff]
+	tool = vimdiff
+[merge]
+	tool = vimdiff
+[mergetool]
+	prompt = false
+[difftool]
+	prompt = false
+[color]
+	ui = auto
+[core]
+	autocrlf = input
+[push]
+	autoSetupRemote = true

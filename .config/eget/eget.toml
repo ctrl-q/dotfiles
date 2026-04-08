@@ -1,0 +1,4 @@
+[global]
+target = "~/.local/share/eget/packages"
+
+["drdo/redu"]
